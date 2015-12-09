@@ -151,6 +151,58 @@
 							<div class="col-md-6">
 								<p>Blah blah blah, get rid of the medical model</p>
 							</div>
+						</div>
+
+
+						<div class="space"></div>
+						<div class="row">
+						<!--
+						<h2>Submit to #dispix </h2>
+						<div class="row">
+							<div class="col-md-6">
+								<script>
+  
+								  // The function will be called after the form is submitted
+								  function uploadFile() {
+								    document.getElementById('uploadFile').value = "Uploading File..";
+								    google.script.run
+								       .withSuccessHandler(fileUploaded)
+								       .uploadFiles(document.getElementById("labnol"));
+								    return false;
+								  }
+ 
+								  // This function will be called after the Google Script has executed
+								  function fileUploaded(status) {
+								    document.getElementById('labnol').style.display = 'none';
+								    document.getElementById('output').innerHTML = status;
+								  }
+  
+								</script>-->
+								 
+								<!-- This is the HTML form -->
+								<!--
+								<form id="labnol">
+								 -->
+								  <!-- Text input fields 
+								  <input type="text" name="myName" placeholder="Your name..">
+								  <input type="email" name="myEmail" placeholder="Your email..">-->
+								 
+								  <!-- File input filed 
+								  <input type="file" name="myFile">
+								 -->
+								 
+								 <!-- The submit button. It calls the server side function uploadfiles() on click -->
+								<!--
+								  <input type="submit" id="uploadFile" value="Upload File" 
+								         onclick="this.value='Uploading..';uploadFile();">
+								 
+								</form>
+					
+								 
+								 Here the results of the form submission will be displayed 
+								<div id="output"></div>
+							</div>-->
+
 							<div class="col-md-6">
 								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 									<div class="panel panel-default">
@@ -203,6 +255,8 @@
 			</div>
 		</div>
 		<!-- section end -->
+
+
 
 		<!-- section start -->
 		<!-- ================ -->
@@ -362,6 +416,47 @@ Xanax 1.25mg (and up)</p>
 													</div>
 													<div class="col-md-6">
 														<img src="images/portfolio-3.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+
+							<div class="col-xs-6 isotope-item site-building">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-14.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-14">
+											<i class="fa fa-search-plus"></i>
+											<!-- <span>Site Building</span> -->
+										</a>
+									</div>
+									<!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-7">Project Title</a> -->
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-14" tabindex="-1" role="dialog" aria-labelledby="project-14-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<!-- <h4 class="modal-title" id="project-7-label">Project Title</h4> -->
+											</div>
+											<div class="modal-body">
+												<!-- <h3>Project Description</h3> -->
+												<div class="row">
+													<div class="col-md-6">
+														<p>This is Baxter. Baxter is my ESA [Emotional Support Animal] and all around cuddlebug. He helped me recover from suicidal depression.</p>
+<p>Anonymous</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-14.jpg" alt="">
 													</div>
 												</div>
 											</div>
@@ -618,45 +713,6 @@ Which do you prefer? And ask yourself—why?</p>
 							<div class="col-xs-6 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/portfolio-11.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#project-11">
-											<i class="fa fa-search-plus"></i>
-											<!-- <span>Web Design</span> -->
-										</a>
-									</div>
-									<!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-11">Project Title</a> -->
-								</div>
-								<!-- Modal -->
-								<div class="modal fade" id="project-11" tabindex="-1" role="dialog" aria-labelledby="project-11-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<!-- <h4 class="modal-title" id="project-11-label">Project Title</h4> -->
-											</div>
-											<div class="modal-body">
-												<!-- <h3>Project Description</h3> -->
-												<div class="row">
-													<div class="col-md-6">
-														<p>In golf, people ask me what my “handicap” is, meaning how many strokes over par I play on 18 holes. Mine is two replaced knees, three pins in my back, a bad memory, and bad hearing!</p><p>Kurt Curtis</p>
-													</div>
-													<div class="col-md-6">
-														<img src="images/portfolio-11.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-							
-							<div class="col-xs-6 isotope-item web-design">
-								<div class="image-box">
-									<div class="overlay-container">
 										<img src="images/portfolio-12.jpg" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-12">
 											<i class="fa fa-search-plus"></i>
@@ -681,6 +737,45 @@ Which do you prefer? And ask yourself—why?</p>
 													</div>
 													<div class="col-md-6">
 														<img src="images/portfolio-12.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-xs-6 isotope-item web-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-11.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-11">
+											<i class="fa fa-search-plus"></i>
+											<!-- <span>Web Design</span> -->
+										</a>
+									</div>
+									<!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-11">Project Title</a> -->
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-11" tabindex="-1" role="dialog" aria-labelledby="project-11-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<!-- <h4 class="modal-title" id="project-11-label">Project Title</h4> -->
+											</div>
+											<div class="modal-body">
+												<!-- <h3>Project Description</h3> -->
+												<div class="row">
+													<div class="col-md-6">
+														<p>In golf, people ask me what my “handicap” is, meaning how many strokes over par I play on 18 holes. Mine is two replaced knees, three pins in my back, a bad memory, and bad hearing!</p><p>Kurt Curtis</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-11.jpg" alt="">
 													</div>
 												</div>
 											</div>
